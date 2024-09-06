@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="3">
     <title>Calculadora</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -13,26 +14,26 @@
             <input type="text" id="visao" disabled style="background-color: red;">
         </div>
         <div class="Calculadora">
-            <button class="botao" onclick="limparCalculadora()">C</button>
             <button class="botao" onclick="addParentesEsquerda('(')">(</button>
             <button class="botao" onclick="addParentesDireita(')')">)</button>
-            <button class="botao" onclick="addNaVisao('/')">/</button>
-            <button class="botao" onclick="addNaVisao('/')">/</button>
-            <button class="botao" onclick="addNaVisao('*')">*</button>
-            <button class="botao" onclick="addNaVisao('-')">-</button>
+            <button class="botao" onclick="addNaVisao('%')">%</button>
+            <button class="botao" onclick="limparCalculadora()">C</button>
             <button class="botao" onclick="addNaVisao('7')">7</button>
             <button class="botao" onclick="addNaVisao('8')">8</button>
             <button class="botao" onclick="addNaVisao('9')">9</button>
-            <button class="botao" onclick="addNaVisao('+')">+</button>
+            <button class="botao" onclick="addNaVisao('/')">/</button>
             <button class="botao" onclick="addNaVisao('4')">4</button>
             <button class="botao" onclick="addNaVisao('5')">5</button>
             <button class="botao" onclick="addNaVisao('6')">6</button>
-            <button class="botao" onclick="calcularResultado()">=</button>
+            <button class="botao" onclick="addNaVisao('*')">*</button>
             <button class="botao" onclick="addNaVisao('1')">1</button>
             <button class="botao" onclick="addNaVisao('2')">2</button>
             <button class="botao" onclick="addNaVisao('3')">3</button>
+            <button class="botao" onclick="addNaVisao('-')">-</button>
             <button class="botao" onclick="addNaVisao('0')">0</button>
             <button class="botao" onclick="addNaVisao('.')">.</button>
+            <button class="botao" onclick="calcularResultado()">=</button>
+            <button class="botao" onclick="addNaVisao('+')">+</button>
         </div>
     </div>
     <script src="main.js"></script>
