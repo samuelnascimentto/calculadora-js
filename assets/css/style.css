@@ -31,7 +31,7 @@
 .Calculadora {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 5px;
 }
 
 .botao, .botao-direita {
@@ -45,16 +45,18 @@
 }
 
 .botao-direita {
-    /* background-color: #f90; */
+    display: flex;
+    background-color: #f90;
+    text-align: center;
+    justify-content: center;
 }
 
 #resultado {
-    grid-column: span 2;
-    /* background-color: #f90; */
+    grid-column: span 2;         /* Ocupa duas linhas no grid */
     color: white;
     font-size: 30px;
 }
-/* 
+
 .botao:hover {
     background-color: #ddd;
 }
@@ -83,4 +85,4 @@
 
 .botao:nth-child(4n):active {
     background-color: #d70;
-} */
+}
