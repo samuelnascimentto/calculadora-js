@@ -10,29 +10,29 @@
 <body>
     <div class="container">
         <div class="display">
-            <h1>Calculadora</h1>
-            <input type="text" id="visao" disabled>
+            <h1>CALCULADORA</h1>
+            <input type="text" id="conta-resultado" >
         </div>
         <div class="Calculadora">
-            <button class="botao" onclick="limparCalculadora()">C</button>
-            <button class="botao" onclick="addParentesEsquerda('(')">()</button>
-            <button style="font-size: 35px;" class="botao-direita" onclick="addNaVisao('/')">/</button>
-            <button class="botao-direita" onclick="addNaVisao('*')"><img src="../assets/img/apagar.png"></button>
-            <button class="botao" onclick="addNaVisao('7')">7</button>
-            <button class="botao" onclick="addNaVisao('8')">8</button>
-            <button class="botao" onclick="addNaVisao('9')">9</button>
-            <button class="botao-direita" onclick="addNaVisao('*')"><img src="../assets/img/multiplicar.png"></button>
-            <button class="botao" onclick="addNaVisao('4')">4</button>
-            <button class="botao" onclick="addNaVisao('5')">5</button>
-            <button class="botao" onclick="addNaVisao('6')">6</button>
-            <button class="botao-direita" onclick="addNaVisao('-')"><img src="../assets/img/remover.png"></button>
-            <button class="botao" onclick="addNaVisao('1')">1</button>
-            <button class="botao" onclick="addNaVisao('2')">2</button>
-            <button class="botao" onclick="addNaVisao('3')">3</button>
-            <button class="botao-direita" onclick="addNaVisao('-')"><img src="../assets/img/somar.png"></button>
-            <button class="botao" onclick="addNaVisao('.')">,</button>
-            <button class="botao" onclick="addNaVisao('0')">0</button>
-            <button id="resultado" class="botao-direita" onclick="addNaVisao('=')"><img src="../assets/img/igual.png"></button>
+            <button class="caractere" onclick="limparCalculadora()">C</button>
+            <button class="caractere" onclick="addParentesEsquerda('(')">()</button>
+            <button style="font-size: 35px;" class="caractere" onclick="addNaVisao('/')">/</button>
+            <button class="caractere" onclick="addNaVisao('*')"><img src="../assets/img/apagar.png"></button>
+            <button class="numero" onclick="addNaVisao('7')">7</button>
+            <button class="numero" onclick="addNaVisao('8')">8</button>
+            <button class="numero" onclick="addNaVisao('9')">9</button>
+            <button class="caractere" onclick="addNaVisao('*')"><img src="../assets/img/multiplicar.png"></button>
+            <button class="numero" onclick="addNaVisao('4')">4</button>
+            <button class="numero" onclick="addNaVisao('5')">5</button>
+            <button class="numero" onclick="addNaVisao('6')">6</button>
+            <button class="caractere" onclick="addNaVisao('-')"><img src="../assets/img/remover.png"></button>
+            <button class="numero" onclick="addNaVisao('1')">1</button>
+            <button class="numero" onclick="addNaVisao('2')">2</button>
+            <button class="numero" onclick="addNaVisao('3')">3</button>
+            <button class="caractere" onclick="addNaVisao('-')"><img src="../assets/img/somar.png"></button>
+            <button class="numero" onclick="addNaVisao('.')">,</button>
+            <button class="numero" onclick="addNaVisao('0')">0</button>
+            <button id="resultado" class="caractere" onclick="addNaVisao('=')"><img src="../assets/img/igual.png"></button>
         </div>
     </div>
     <script src="main.js"></script>

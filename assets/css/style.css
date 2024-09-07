@@ -1,10 +1,15 @@
+body{
+    background-color: #f1f1f1;
+}
+
 .container {
     width: 300px;
     margin: 0 auto;
     padding: 20px;
-    border: 2px solid #000;
+    border: 2px solid #afafaf;
     border-radius: 10px;
-    background-color: #f4f4f4;
+    background-color: #ddd;
+    font-family: sans-serif;
 }
 
 .display {
@@ -14,18 +19,21 @@
 
 .display h1 {
     margin: 0;
-    font-size: 24px;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 4px;
 }
 
-#visao {
-    width: 100%;
+#conta-resultado {
+    width: 96%;
     height: 40px;
     font-size: 20px;
     text-align: right;
     padding: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #afafaf;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: #eee;
+    margin-right: 4px;
 }
 
 .Calculadora {
@@ -34,55 +42,40 @@
     gap: 5px;
 }
 
-.botao, .botao-direita {
+.numero, .caractere {
     font-size: 30px;
     padding: 14px;
     border: none;
     border-radius: 5px;
-    background-color: #eee;
+    background-color: #e9e9e9;
     cursor: pointer;
     transition: background-color 0.3s, box-shadow 0.3s;
 }
 
-.botao-direita {
+.caractere {
     display: flex;
-    background-color: #f90;
+    background-color: #bbb;
     text-align: center;
     justify-content: center;
 }
 
 #resultado {
-    grid-column: span 2;         /* Ocupa duas linhas no grid */
+    grid-column: span 2; 
     color: white;
+    background-color: #f90;
     font-size: 30px;
 }
 
-.botao:hover {
-    background-color: #ddd;
+.numero:hover {
+    background-color: #e9e9e949;
 }
 
-.botao:active {
-    background-color: #ccc;
-    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+.caractere:hover {
+    background-color: #bbbbbb67;
 }
 
-#resultado:hover, #apagar:hover {
-    background-color: #e80;
+
+#resultado:hover:hover {
+    background-color: rgba(255, 119, 0, 0.678);
 }
 
-#resultado:active, #apagar:active {
-    background-color: #d70;
-}
-
-.botao:nth-child(4n) {
-    background-color: #f90;
-    color: white;
-}
-
-.botao:nth-child(4n):hover {
-    background-color: #e80;
-}
-
-.botao:nth-child(4n):active {
-    background-color: #d70;
-}
