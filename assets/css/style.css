@@ -39,7 +39,7 @@ body{
 .Calculadora {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 5px;
+    gap: 6px;
 }
 
 .btn-num, .btn-eq,
@@ -53,28 +53,23 @@ body{
     transition: background-color 0.3s, box-shadow 0.3s;
 }
 
-.caractere {
+#especial {
     display: flex;
-    background-color: #bbb;
+    background-color: #cacaca;
     text-align: center;
     justify-content: center;
 }
 
 .btn-eq {
-    grid-column: span 2; 
+    grid-column: span 3; 
     color: white;
     background-color: #f90;
     font-size: 30px;
 }
 
-.btn-num:hover {
-    background-color: #e9e9e949;
+.btn-num:hover, #especial:hover {
+    background-color: #919191;
 }
-
-.btn-num:hover {
-    background-color: #bbbbbbab;
-}
-
 
 .btn-eq:hover {
     background-color: rgba(255, 119, 0, 0.678);
