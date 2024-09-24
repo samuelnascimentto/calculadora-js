@@ -4,7 +4,7 @@
 
 <h2>Demonstração</h2><p>Veja o projeto em ação! Clique no botão abaixo para acessar a versão em tempo real:</p>
 
-<a href="file:///home/sawuel/Downloads/calculadora-js/assets/index.html" 
+<a href="https://samuelnascimentto.github.io/calculadora-js/assets/index.html" 
    style="display: inline-block; padding: 10px 20px; background-color: #f90; color: black; text-decoration: none; border-radius: 12px; text-align: center;">
    Acessar GitHub Pages
 </a>
