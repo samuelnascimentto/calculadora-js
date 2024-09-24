@@ -4,9 +4,9 @@
 
 <h2>Demonstração</h2><p>Veja o projeto em ação! Clique no botão abaixo para acessar a versão em tempo real:</p>
 
-<a href="https://samuelnascimentto.github.io/calculadora-js/assets/index.html" 
-   style="display: inline-block; padding: 10px 20px; background-color: #f90; color: black; text-decoration: none; border-radius: 12px; text-align: center;">
-   Acessar GitHub Pages
+
+<a href="https://samuelnascimentto.github.io/calculadora-js/assets/index.html">
+    <img src="https://github.com/user-attachments/assets/21819f41-2eef-4b18-bd3f-579fcb9109ec"><p>
 </a>
 
 ![af3acd87-189a-437e-95db-b5e9efd8707e](https://github.com/user-attachments/assets/781d7641-29db-42b6-9cda-33fffac5afc1)  
