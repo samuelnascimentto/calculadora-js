@@ -5,9 +5,10 @@
 <h2>Demonstração</h2><p>Veja o projeto em ação! Clique no botão abaixo para acessar a versão em tempo real:</p>
 
 
-<a href="https://samuelnascimentto.github.io/calculadora-js/assets/index.html">
-    <img src="https://github.com/user-attachments/assets/1f0925e7-4cc6-4401-8035-19ffa4b95198" alt="button"><p><p>
+<a href="https://samuelnascimentto.github.io/calculadora-js/assets/index.html" target="_blank">
+    <img src="https://github.com/user-attachments/assets/1f0925e7-4cc6-4401-8035-19ffa4b95198" alt="button">
 </a>
+
 
 
 ![af3acd87-189a-437e-95db-b5e9efd8707e](https://github.com/user-attachments/assets/781d7641-29db-42b6-9cda-33fffac5afc1)  
